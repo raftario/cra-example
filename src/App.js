@@ -42,6 +42,10 @@ class App extends React.Component {
         {/* On doit placer les commentaires entre crochets dans le code HTML. */}
         {/* On peut passer des variables et fonctions aux tags sans problème. */}
         <Nav view={this.state.view} viewSet={this.viewSet}/>
+        {/*
+        Si une fonction retourne un élément affichable,
+        on peut l'utiliser entre crochets pour afficher cet élément.
+        */}
         {this.viewSwitch()}
       </>
     )
