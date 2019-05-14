@@ -1,6 +1,10 @@
 {
   "name": "cra-example",
-  "version": "0.1.0",
+  "author": "Raphaël Thériault <raphael_theriault@outlook.com> (https://raphaeltheriault.com)",
+  "description": "Exemple le plus simple et complet possible d'application React",
+  "homepage": ".",
+  "repository": "https://github.com/raftario/cra-example",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "react": "^16.8.6",
@@ -9,9 +13,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "build": "react-scripts build"
   },
   "eslintConfig": {
     "extends": "react-app"
